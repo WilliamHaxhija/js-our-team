@@ -1,34 +1,39 @@
 //Creo un array di oggetti con all'interno le chiavi fornite
 const teamMembers = [
     {
-        nome: '',
-        ruolo: '',
-        foto: ''
+        nome: 'Angela Caroll',
+        ruolo: 'Chief Editor',
+        foto: 'angela-caroll-chief-editor.jpg'
     },
     {
-        nome: '',
-        ruolo: '',
-        foto: ''
+        nome: 'Angela Lopez',
+        ruolo: 'Media Manager',
+        foto: 'angela-lopez-social-media-manager.jpg'
     },
     {
-        nome: '',
-        ruolo: '',
-        foto: ''
+        nome: 'Barbara Ramos',
+        ruolo: 'Graphic Designer',
+        foto: 'barbara-ramos-graphic-designer.jpg'
     },
     {
-        nome: '',
-        ruolo: '',
-        foto: ''
+        nome: 'Scott Estrada',
+        ruolo: 'Developer',
+        foto: 'scott-estrada-developer.jpg'
     },
     {
-        nome: '',
-        ruolo: '',
-        foto: ''
+        nome: 'Walter Gordon',
+        ruolo: 'Office Manager',
+        foto: 'walter-gordon-office-manager.jpg'
     },
     {
-        nome: '',
-        ruolo: '',
-        foto: ''
+        nome: 'Wayne Barnett',
+        ruolo: 'Founder Ceo',
+        foto: 'wayne-barnett-founder-ceo.jpg'
     },
 ];
-console.log(teamMembers);
+for (let key in teamMembers) {
+    const thisMember = teamMembers[key];
+    console.log(thisMember.nome);
+    console.log(thisMember.ruolo);
+    console.log(thisMember.foto);
+}
