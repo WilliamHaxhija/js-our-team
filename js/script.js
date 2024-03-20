@@ -1,4 +1,6 @@
-//Creo un array di oggetti con all'interno le chiavi fornite
+const namesContainer = document.querySelector('.name');
+const rolesContainer = document.querySelector('.role');
+const photosContainer = document.querySelector('.photo'); 
 const teamMembers = [
     {
         nome: 'Angela Caroll',
@@ -31,9 +33,9 @@ const teamMembers = [
         foto: 'wayne-barnett-founder-ceo.jpg'
     },
 ];
-for (let key in teamMembers) {
-    const thisMember = teamMembers[key];
-    console.log(thisMember.nome);
-    console.log(thisMember.ruolo);
-    console.log(thisMember.foto);
+for (let i = 0; i < teamMembers.length; i++) {
+    thisMember = teamMembers[i];
+    namesContainer.innerHTML += `<div class="border">${thisMember.nome}</div>`;
+    rolesContainer.innerHTML += `<div class="border">${thisMember.ruolo}</div>`;
+    photosContainer.innerHTML += `<div class="border">${thisMember.foto}</div>`;
 }
