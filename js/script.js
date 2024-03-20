@@ -35,7 +35,9 @@ const teamMembers = [
 ];
 for (let i = 0; i < teamMembers.length; i++) {
     thisMember = teamMembers[i];
-    namesContainer.innerHTML += `<div class="border">${thisMember.nome}</div>`;
-    rolesContainer.innerHTML += `<div class="border">${thisMember.ruolo}</div>`;
-    photosContainer.innerHTML += `<div class="border">${thisMember.foto}</div>`;
+    namesContainer.innerHTML += `<div class="object-keys">${thisMember.nome}</div>`;
+    rolesContainer.innerHTML += `<div class="object-keys">${thisMember.ruolo}</div>`;
+    photosContainer.innerHTML += `<div class="object-keys">
+                                        <img class="images" src="./img/${thisMember.foto}" alt="member">
+                                  </div>`;
 }

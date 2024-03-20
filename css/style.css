@@ -1,7 +1,26 @@
-.border {
-    border: 1px solid black;
-}
-.container {
+.object-keys {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 7.5rem;
+    padding: 5px;
+    background-color: rgb(196, 224, 250);
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
     max-width: 60%;
+    margin: 0 auto;
+}
+
+.images {
+    max-width: 7rem;
+}
+
+div > span {
+    font-size: larger;
+    font-weight: 700;
 }
