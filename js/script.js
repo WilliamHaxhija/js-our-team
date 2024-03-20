@@ -1,8 +1,34 @@
 //Creo un array di oggetti con all'interno le chiavi fornite
-const team = [
-    { teamMember
-        nome:
-        ruolo:
-        foto:
+const teamMembers = [
+    {
+        nome: '',
+        ruolo: '',
+        foto: ''
     },
-]
+    {
+        nome: '',
+        ruolo: '',
+        foto: ''
+    },
+    {
+        nome: '',
+        ruolo: '',
+        foto: ''
+    },
+    {
+        nome: '',
+        ruolo: '',
+        foto: ''
+    },
+    {
+        nome: '',
+        ruolo: '',
+        foto: ''
+    },
+    {
+        nome: '',
+        ruolo: '',
+        foto: ''
+    },
+];
+console.log(teamMembers);
