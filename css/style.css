@@ -8,8 +8,11 @@
     background-color: rgb(196, 224, 250);
 }
 
-.container {
+body {
     text-align: center;
+}
+
+.container {
     display: flex;
     justify-content: center;
     max-width: 60%;
